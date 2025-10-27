@@ -12,7 +12,6 @@ db = client['blog']
 collection = db['posts']
 
 
-
 @app.route('/', methods=['GET'])
 def hello_world():
     return jsonify('Hello World!')
